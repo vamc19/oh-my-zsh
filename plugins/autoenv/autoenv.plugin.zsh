@@ -1,5 +1,5 @@
 # Activates autoenv or reports its failure
-if ! source $HOME/.autoenv/activate.sh 2>/dev/null; then
+if ! source /usr/bin/activate.sh 2>/dev/null; then
   echo '-------- AUTOENV ---------'
   echo 'Could not find ~/.autoenv/activate.sh.'
   echo 'Please check if autoenv is correctly installed.'
